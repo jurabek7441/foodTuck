@@ -1,0 +1,23 @@
+
+.form_oyna form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 20px auto;
+    gap: 20px;
+    align-items: flex-end;
+}
+input{
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid silver;
+    outline: none;
+    width: 100%;
+}
+
+.sendBtn{
+    margin: 0;
+}
+table{
+    margin: 20px auto;
+}

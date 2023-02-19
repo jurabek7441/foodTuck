@@ -1,0 +1,1752 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #060606;
+
+}
+.active{
+    color: #FF9F0D;
+    font-size: 28px;
+}
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+    /* background-color: #060606; */
+    overflow: hidden;
+}
+.header{
+    /* position: absolute; */
+    /* top: 10px; */
+    transform: translateY(10px);
+    background-color: #060606;
+    padding: 45px 250px;
+    background: url(./pages/Home/photo/header_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.header .logo{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    display: flex; 
+    flex-direction: column;
+
+    padding: 50px 300px;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    /* position: absolute; */
+}   
+.navbar .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+    /* padding: 0 50px; */
+}
+.navbar .nav .menu{
+    display: flex;
+    gap: 32px;
+    padding: 15px 0;
+    align-items: center;
+}
+.nav .menu a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.nav .search_cart{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    gap: 10px;
+    width: 340px;
+}
+.nav .search_cart .search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #FF9F0D;
+    border-radius: 27px;
+    padding: 14px 26px;
+}
+.nav .search_cart .search input{
+    border: none;
+    outline: 1px solid transparent;
+    font-size: 16px;
+    background-color: transparent;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-family: 'Inter';
+}
+.nav .search_cart .search i{
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav .search_cart .cart{
+    color: #FFFFFF;
+    font-size: 22px;
+}
+.header .header_content{
+    display: flex;
+    align-items: center;
+}
+.header .header_content .icon_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+}
+.header .header_content .icon_box span{
+    border: 1px solid #FFFFFF;
+    height: 158px;
+}
+.header .header_content .icon_box i{
+    color: #FFFFFF;
+}
+.header .header_content .icon_box .twitter{
+    color: #FF9F0D;
+}
+.header .header_content .header_content_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0 50px;
+}
+.header .header_content .header_content_left h3{
+    font-family: 'Great vibes';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FF9F0D;
+}
+.header .header_content .header_content_left h2{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+.header .header_content .header_content_left h2 span{
+    color: #FF9F0D;
+}
+.header .header_content .header_content_left p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.header .header_content .header_content_left button{
+    padding: 18px 57px;
+    background: #FF9F0D;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #E0DFDF;
+}
+.header .header_content .header_content_right figure{
+    padding-top: 100px;
+}
+
+
+/* =============            About Us(start)            ======================== */
+
+.aboutUs{
+    display: flex;
+    gap: 120px;
+    padding: 120px 300px;
+}
+.aboutUs .aboutUs_left h3{
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FF9F0D;
+    
+}
+.aboutUs .aboutUs_left h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.aboutUs .aboutUs_left h2 span{
+    color: #FF9F0D;
+}
+.aboutUs .aboutUs_left p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #FFFFFF;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.aboutUs .aboutUs_left button{
+    padding: 18px 57px;
+    background: #FF9F0D;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #E0DFDF;
+    margin-top: 30px;
+}
+.aboutUs .aboutUs_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.aboutUs .aboutUs_right .line_2{
+    display: flex;
+    gap: 15px;
+}
+/* ===========================             About Us(end)                = = = = = = = = = = = */
+
+
+
+/* ===========================          Food Category(start)             = = = = = = = = = =  */
+
+.foodCategory{
+    padding: 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.foodCategory h3{
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FF9F0D;
+}
+.foodCategory h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.foodCategory h2 span{
+    color: #FF9F0D;
+}
+.foodCategory>img{
+    position: absolute;
+    right: -3%;
+    bottom: -35%;
+}
+
+.foodCategory .foodCategory_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 33px;
+    padding: 50px 0;
+}
+
+
+/* ===========================          Food Category (end)             = = = = = = = = = =  */
+
+/* ===========================          Why Choose Us (start)             = = = = = = = = = =  */
+
+.whyChoose{
+    padding: 120px 300px;
+    display: flex;
+    align-items: center;
+    gap: 135px;
+}
+.whyChoose .whyChoose_left{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.whyChoose .whyChoose_left .line1{
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+}
+.whyChoose .whyChoose_left .line2{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+.whyChoose .whyChoose_left .line2 figure{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.whyChoose .whyChoose_right h3{
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FF9F0D;
+}
+.whyChoose .whyChoose_right h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.whyChoose .whyChoose_right h2 span{
+    color: #FF9F0D;
+}
+.whyChoose .whyChoose_right p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #FFFFFF;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.whyChoose .whyChoose_right .food_lunch_diner{
+    display: flex;
+    padding: 32px 0;
+    gap: 33px;
+}
+.whyChoose .whyChoose_right .food_lunch_diner div{
+    background-color: #FF9F0D;
+    padding: 22px 23px;
+    border-radius: 6px;
+}
+/* ===========================          Why Choose Us (end)             = = = = = = = = = =  */
+
+
+/* ===========================          Stat (start)             = = = = = = = = = =  */
+
+.stat{
+    padding: 112px 300px;
+    display: flex;
+    justify-content: space-between;
+    background: url(./pages/Home/photo/stat_background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.stat div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    gap: 24px;
+}
+.stat div figure:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+.stat div h5{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.stat div h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+/* ===========================          Stat (end)             = = = = = = = = = =  */
+
+
+
+/* ===========================          Choose&pick (start)        = = = = = = = */
+
+.choose_pick{
+    padding: 120px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.choose_pick h3{
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FF9F0D;
+}
+.choose_pick h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.choose_pick h2 span{
+    color: #FF9F0D;
+}
+
+.choose_pick .menuBar{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.choose_pick .menuBar a{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: 0.2s ease-in-out;
+}
+.choose_pick .menuBar a:hover{
+    color: #FF9F0D;
+    transform: scale(1.1);
+}
+
+.choose_pick .choose_pick_content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    
+}
+.choose_pick .choose_pick_content .choose_pick_right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+.choose_pick .choose_pick_content .choose_pick_right .choose_pick_card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+.choose_pick .choose_pick_content .choose_pick_right .choose_pick_card:hover{
+    transform: scale(1.1);
+    background-color: #222;
+}
+.choose_pick .choose_pick_content .choose_pick_right .choose_pick_card .card_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.choose_pick .choose_pick_content .choose_pick_right .choose_pick_card .card_content h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.choose_pick .choose_pick_content .choose_pick_right .choose_pick_card .card_content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.choose_pick .choose_pick_content .choose_pick_right .choose_pick_card .card_content h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FF9F0D;
+}
+/* ===========================          Choose&pick (end)        = = = = = = = */
+
+
+/* ===========================          Chefs (start)        = = = = = = = */
+
+.chefs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.chefs h3{
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FF9F0D;
+}
+.chefs h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.chefs h2 span{
+    color: #FF9F0D;
+}
+.chefs .chefs_content{
+    display: flex;
+    padding: 50px 0;
+    gap: 24px;
+
+}
+.chefs .chefs_content .chefs_card{
+    position: relative;
+}
+.chefs .chefs_content .chefs_card .chefs_card_text{
+    border-radius: 0 0 0 6px;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    padding: 6px 66px 10px 20px;
+    background-color: #FFFFFF;
+}
+.chefs .chefs_content .chefs_card .chefs_card_text h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+.chefs .chefs_content .chefs_card .chefs_card_text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+}
+.chefs button{
+    padding: 13px 41px;
+    background-color: transparent;
+    border: 1px solid #FF9F0D;
+    color: #FFFFFF;
+    border-radius: 25px;
+}
+
+/* ===========================          Chefs (end)        = = = = = = = */
+
+
+/* ===========================          Testimonial (start)        = = = = = = = */
+
+.testimonial{
+    padding: 10px 300px;
+}
+
+.testimonial  h3{
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FF9F0D;
+}
+.testimonial h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+.testimonial .testimonial_content{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonial .testimonial_content .testimonial_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 80px rgba(205, 205, 205, 0.25);
+    position: relative;
+    margin: 125px 200px;
+}
+.testimonial .testimonial_content .testimonial_card figure {
+    transform: translateY(-70%);
+
+}
+.testimonial .testimonial_content .testimonial_card p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    width: 70%;
+    padding: 32px 0;
+    text-align: center;
+    color: #4F4F4F;
+}
+.testimonial .testimonial_content .testimonial_card .star_box{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.testimonial .testimonial_content .testimonial_card h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    padding-top: 20px;
+}
+.testimonial .testimonial_content .testimonial_card .slider_box{
+    display: flex;
+    gap: 7px;
+}
+.testimonial .slider_box span{
+    width: 10px;
+    content: " ";
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+/* ===========================          Testimonial (end)        = = = = = = = */
+
+/* ===========================          Reastaurant Active Process (start)        = = = = = = = */
+.restaurant_active{
+    padding: 110px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: url(./pages/Home/photo/restaurant_active_photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.restaurant_active h3{
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FF9F0D;
+}
+.restaurant_active  h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #FFFFFF;
+    padding-top: 20px;
+    width: 54%;
+    text-align: end;
+}
+
+.restaurant_active h2 span{
+    color: #FF9F0D;
+}
+.restaurant_active p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 50%;
+    text-align: end;
+    padding: 32px 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+.restaurant_active .button_play{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.restaurant_active .button_play .btn{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background: transparent;
+    padding:18px 50px;
+    border: 1px solid #FF9F0D;
+    border-radius: 30px;
+    color: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+    transition: color 0.4s ease-in-out;
+}
+.restaurant_active .button_play .btn:hover{
+    color: transparent;
+    background-color: #FF9F0D;
+}
+.restaurant_active .button_play .btn::before{
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #FF9F0D;
+    z-index: -1;
+    /* transition:  0.5s; */
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.restaurant_active .button_play .btn1::before{
+    transform: scaleX(0);
+}
+.restaurant_active .button_play .btn1:hover::before{
+    transform: scaleX(1);
+}
+.restaurant_active .button_play .play_video{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+.restaurant_active .button_play .play_video img{
+    padding: 21px;
+    border-radius: 25px;
+    background-color: #FF9F0D;
+}
+.restaurant_active .button_play .play_video:hover{
+    transform: scale(1.1);
+}
+.restaurant_active .button_play .play_video h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/* ===========================          Reastaurant Active Process (end)        = = = = = = = */
+
+
+/* ===========================          Blog Post (start)        = = = = = = = */
+.blog_post{
+    padding: 120px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog_post h3{
+    font-family: 'Great Vibes';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FF9F0D;
+}
+.blog_post  h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #FFFFFF;
+    padding-top: 20px;
+    width: 54%;
+    text-align: center;
+}
+
+.blog_post h2 span{
+    color: #FF9F0D;
+}
+.blog_post .blogPost_content{
+    padding-top: 60px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.blog_post .blogPost_content .blogPost_card{
+    border: 1px solid #FFFFFF;
+}
+.blog_post .blogPost_content .blogPost_card .card_text{
+    padding: 30px 43px;
+}
+.blog_post .blogPost_content .blogPost_card .card_text h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF9F0D;
+}
+.blog_post .blogPost_content .blogPost_card .card_text h4{
+    font-weight: 600;
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.blog_post .blogPost_content .blogPost_card .card_text .learn_iconBox{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+}
+.blog_post .blogPost_content .blogPost_card .card_text .learn_iconBox p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;   
+    color: #FFFFFF;
+    
+}
+.blog_post .blogPost_content .blogPost_card .card_text .learn_iconBox .icons{
+    display: flex;
+    gap: 12px;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.blog_post .blogPost_content .blogPost_card .card_text .learn_iconBox .icons .message{
+    color: #FF9F0D;
+}
+
+/* ===========================          Blog Post (end)        = = = = = = = */
+
+/* ===========================          Footer (start)        = = = = = = = */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    /* padding: 50px 300px; */
+    padding-bottom: 0;
+}
+
+.footer .footer_top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 61px;
+    border-bottom: 1px solid #FF9F0D;
+    margin: 0px 350px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    
+}
+.footer .footer_top .footer_top_text h2{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #FFFFFF;
+    padding-top: 20px;
+ }
+
+.footer .footer_top .footer_top_text h2 span{
+    color: #FF9F0D;
+}
+.footer .footer_top .footer_top_text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;   
+    color: #FFFFFF;
+}
+.footer .footer_top .footer_top_input{
+    display: flex;
+    background-color: #FF9F0D;
+    border-radius: 4px;
+}
+.footer .footer_top .footer_top_input input{
+    background-color: transparent;
+    padding: 16px 20px;
+    border: none;
+    outline: none;
+    color: #E0DFDF;
+}
+.footer .footer_top .footer_top_input button{
+    color: #FF9F0D;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer .footer_center{
+    display: flex;
+    justify-content: space-between;
+    color: #E0DFDF;
+    padding: 64px 300px;
+}
+.footer .footer_center .footer_center_col{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer .footer_center .col1{
+    width: 25%;
+}
+.footer .footer_center .col1 .opening_hourses{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.footer .footer_center .col1 .opening_hourses figure img{
+    padding: 22px;
+    background-color: #FF9F0D;
+    border-radius: 3px;
+
+}
+.footer .footer_center .col1 .opening_hourses .o_h_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.footer .footer_center .col1 .opening_hourses .o_h_text h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.footer .footer_center .footer_center_col h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.footer .footer_center .footer_center_col h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer .footer_center .footer_center_col p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer .footer_center .col4 .footer_center_col_card{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.footer .footer_center .col4 .footer_center_col_card .footer_date{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.49;
+}
+.footer .footer_center .col4 .footer_center_col_card .footer_name{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.footer .footer_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF9F0D;
+    padding: 33px 300px;
+}
+.footer .footer_bottom .footer_bottom_left p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footer .footer_bottom .footer_bottom_right{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.footer .footer_bottom .footer_bottom_right i{
+    padding: 10px 13px;
+    border-radius: 2px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #4F4F4F;
+}
+.footer .footer_bottom .footer_bottom_right .youtube{
+    color: #FF9F0D;
+}
+
+/* ===========================          Footer (end)        = = = = = = = */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================             MENU page (start)        ====================== */
+/* =======================             Starter Menu (start)        ====================== */
+
+
+.menu_page{
+    background-color: #FFFFFF;
+}
+.menu_page .starterMenu{
+    padding: 112px 300px;
+    display: flex;
+    align-items: center;
+    gap: 112px;
+}
+.menu_page .starterMenu .starterMenu_right{
+    display: flex;
+    /* align-items: center; */
+    gap: 24px;
+    flex-direction: column;
+    width: 60%;
+}
+.menu_page .starterMenu .starterMenu_right .starterMenu_title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu_page .starterMenu .starterMenu_right .starterMenu_title i{
+    color: #FF9F0D;
+    font-size: 24px;
+}
+.menu_page .starterMenu .starterMenu_right .starterMenu_title h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #333333;
+}
+.menu_page .starterMenu .starterMenu_right .starterMenu_body{
+    display: flex;
+    flex-direction: column;
+}
+.menu_page .starterMenu .starterMenu_right .starterMenu_body .starterMenu_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed #E0E0E0;
+    padding: 16px 0;
+    transition: 0.3s ease-in-out;
+}
+.menu_page .starterMenu .starterMenu_right .starterMenu_body .starterMenu_card:hover{
+    transform: scale(1.05);
+}
+.menu_page .starterMenu .starterMenu_right .starterMenu_body .starterMenu_card .name_info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.menu_page .starterMenu .starterMenu_right .starterMenu_body .starterMenu_card .name_info h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.menu_page .starterMenu .starterMenu_right .starterMenu_body .starterMenu_card .name_info h6{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+.menu_page .starterMenu .starterMenu_right .starterMenu_body .starterMenu_card .name_info p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+.menu_page .starterMenu .starterMenu_right .starterMenu_body .starterMenu_card .card_price h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FF9F0D;
+}
+/* =======================             Starter Menu (end)        ====================== */
+
+/* =======================             Main Course (start)        ====================== */
+
+
+
+
+
+
+
+
+.menu_page .mainCourse{
+    display: flex;
+    align-items: center;
+    gap: 112px;
+    padding: 112px 300px;
+}
+.menu_page .mainCourse .mainCourse_left{
+    display: flex;
+    /* align-items: center; */
+    gap: 24px;
+    flex-direction: column;
+    width: 60%;
+}
+.menu_page .mainCourse .mainCourse_left .mainCourse_title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu_page .mainCourse .mainCourse_left .mainCourse_title i{
+    color: #FF9F0D;
+    font-size: 24px;
+}
+.menu_page .mainCourse .mainCourse_left .mainCourse_title h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #333333;
+}
+.menu_page .mainCourse .mainCourse_left .mainCourse_body{
+    display: flex;
+    flex-direction: column;
+}
+.menu_page .mainCourse .mainCourse_left .mainCourse_body .mainCourse_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed #E0E0E0;
+    padding: 16px 0;
+    transition: 0.3s ease-in-out;
+}
+.menu_page .mainCourse .mainCourse_left .mainCourse_body .mainCourse_card:hover{
+    transform: scale(1.05);
+}
+.menu_page .mainCourse .mainCourse_left .mainCourse_body .mainCourse_card .name_info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.menu_page .mainCourse .mainCourse_left .mainCourse_body .mainCourse_card .name_info h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.menu_page .mainCourse .mainCourse_left .mainCourse_body .mainCourse_card .name_info h6{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+.menu_page .mainCourse .mainCourse_left .mainCourse_body .mainCourse_card .name_info p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+.menu_page .mainCourse .mainCourse_left .mainCourse_body .mainCourse_card .card_price h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FF9F0D;
+}
+
+
+
+/* =======================             Main Course (end)        ====================== */
+
+
+
+/* =======================             Dessert (start)        ====================== */
+
+.menu_page .dessert{
+    padding: 112px 300px;
+    display: flex;
+    align-items: center;
+    gap: 112px;
+}
+.menu_page .dessert .dessert_right{
+    display: flex;
+    /* align-items: center; */
+    gap: 24px;
+    flex-direction: column;
+    width: 60%;
+}
+.menu_page .dessert .dessert_right .dessert_title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu_page .dessert .dessert_right .dessert_title i{
+    color: #FF9F0D;
+    font-size: 24px;
+}
+.menu_page .dessert .dessert_right .dessert_title h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #333333;
+}
+.menu_page .dessert .dessert_right .dessert_body{
+    display: flex;
+    flex-direction: column;
+}
+.menu_page .dessert .dessert_right .dessert_body .dessert_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed #E0E0E0;
+    padding: 16px 0;
+    transition: 0.3s ease-in-out;
+}
+.menu_page .dessert .dessert_right .dessert_body .dessert_card:hover{
+    transform: scale(1.05);
+}
+.menu_page .dessert .dessert_right .dessert_body .dessert_card .name_info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.menu_page .dessert .dessert_right .dessert_body .dessert_card .name_info h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.menu_page .dessert .dessert_right .dessert_body .dessert_card .name_info h6{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+.menu_page .dessert .dessert_right .dessert_body .dessert_card .name_info p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+.menu_page .dessert .dessert_right .dessert_body .dessert_card .card_price h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FF9F0D;
+}
+
+
+/* =======================             Dessert (end)        ====================== */
+
+/* =======================             Drinks (start)        ====================== */
+
+
+
+.menu_page .drinks{
+    display: flex;
+    align-items: center;
+    gap: 112px;
+    padding: 112px 300px;
+}
+.menu_page .drinks .drinks_left{
+    display: flex;
+    /* align-items: center; */
+    gap: 24px;
+    flex-direction: column;
+    width: 60%;
+}
+.menu_page .drinks .drinks_left .drinks_title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu_page .drinks .drinks_left .drinks_title i{
+    color: #FF9F0D;
+    font-size: 24px;
+}
+.menu_page .drinks .drinks_left .drinks_title h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #333333;
+}
+.menu_page .drinks .drinks_left .drinks_body{
+    display: flex;
+    flex-direction: column;
+}
+.menu_page .drinks .drinks_left .drinks_body .drinks_card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px dashed #E0E0E0;
+    padding: 16px 0;
+    transition: 0.3s ease-in-out;
+}
+.menu_page .drinks .drinks_left .drinks_body .drinks_card:hover{
+    transform: scale(1.05);
+}
+.menu_page .drinks .drinks_left .drinks_body .drinks_card .name_info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.menu_page .drinks .drinks_left .drinks_body .drinks_card .name_info h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.menu_page .drinks .drinks_left .drinks_body .drinks_card .name_info h6{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+}
+.menu_page .drinks .drinks_left .drinks_body .drinks_card .name_info p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+.menu_page .drinks .drinks_left .drinks_body .drinks_card .card_price h4{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FF9F0D;
+}
+/* =======================             Drinks (end)        ====================== */
+
+
+
+
+/* =======================             Partners & Clients (start)        ====================== */
+
+.menu_page .partners_clients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 300px;
+    padding-bottom: 120px;
+}
+.menu_page .partners_clients h6{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.menu_page .partners_clients h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    font-feature-settings: 'kern' off;
+    color: #333333;
+}
+    
+.menu_page .partners_clients .partners_clients_logos{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* =======================             Partners & Clients (end)        ====================== */
+.shop{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    padding: 120px 300px;
+    gap: 24px;
+}
+.shop .shopLeft{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.shop .shopLeft .shopLeft_top{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.shop .shopLeft .shopLeft_top div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop .shopLeft .shopLeft_top div label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+}
+.shop .shopLeft .shopLeft_top div input{
+    border: 1px solid #E0E0E0;
+    border-radius: 6px; 
+    padding: 10px 18px;
+}
+.shop .shopLeft .shopLeft_center{
+    display: grid;
+
+    grid-template-columns: auto auto auto ;
+    padding-top: 24px;
+    gap: 24px;
+}
+.shop .shopLeft .shopLeft_center .shopLeft_card{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.shop .shopLeft .shopLeft_center .shopLeft_card h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+.shop .shopLeft .shopLeft_center .shopLeft_card .price{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF9F0D;
+}
+.shop .shopLeft .shopLeft_center .shopLeft_card .price del{
+    color: #828282;
+}
+.shop .shopLeft .shopLeft_pagination{
+    display: flex;
+    justify-content: center;
+    padding-top: 58px;
+    gap: 15px;
+}
+.shop .shopLeft .shopLeft_pagination div{
+    width: 48px;
+    height: 48px;
+    border: 2px solid #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF9F0D;
+    transition: 0.3s ease-in-out;
+    outline: none;
+}
+.shop .shopLeft .shopLeft_pagination div:hover{
+    background-color: #FF9F0D;
+    color: #F2F2F2;
+}
+.shop .shopRight{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F2F2F2;
+    border-radius: 6px;
+    padding: 24px 30px;
+}
+.shop .shopRight .search_product{
+    display: flex;
+    align-items: center;
+}
+.shop .shopRight .search_product input{
+    background-color: rgba(255, 159, 13, 0.1);
+    border: none;
+    outline: none;
+    padding: 14px 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+}
+.shop .shopRight .search_product i{
+    padding: 15px 17px;
+    background: #FF9F0D;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+.shop .shopRight .shopRight_category{
+    padding: 24px 0;
+}
+.shop .shopRight .shopRight_category h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+}
+.shop .shopRight .shopRight_category .shopCategory_content{
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+    /* justify-content: space-around; */
+}
+.shop .shopRight .shopRight_category .shopCategory_content .shopCategory_item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 8px;
+}
+.shop .shopRight .shopRight_category .shopCategory_content .shopCategory_item input{
+    border: 1px solid #333333;
+    border-radius: 0;
+}
+.shop .shopRight .shopRight_category .shopCategory_content .shopCategory_item label{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+    user-select: none;
+}
+.shop .shopRight .perfect_taste{
+    background: url(/src/pages/Shop/photo/perfect_taste_bgr.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 29px 23px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.shop .shopRight .perfect_taste h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.shop .shopRight .perfect_taste h3{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.shop .shopRight .perfect_taste .perfect_price p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 15px;
+    color: #FF9F0D;
+}
+.shop .shopRight .perfect_taste .perfect_shop{
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 100px;
+    cursor: pointer;
+}
+.shop .shopRight .perfect_taste .perfect_shop i{
+    border: 2px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 2px;
+    margin-left: 10px;
+    font-weight: 900;
+}
+.shop .shopRight .shopFilter{
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+}
+.shop .shopRight .shopFilter h3{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+}
+.shop .shopRight .shopFilter input{
+    background-color: #FF9F0D;
+}
+.shop .shopRight .shopFilter .filter_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop .shopRight .shopFilter .filter_item p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1E1E;
+    opacity: 0.61;
+}
+.shop .shopRight .latest_product .latest_product_title h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+}
+.shop .shopRight .latest_product .latest_product_content{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 24px 0;
+}
+.shop .shopRight .latest_product .latest_product_content .shopRight_card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.shop .shopRight .latest_product .latest_product_content .shopRight_card h5{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    
+}
+.shop .shopRight .latest_product .latest_product_content .shopRight_card h4{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #4F4F4F;
+}
+.shop .shopRight .productTags h2{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+}
+.shop .shopRight .productTags .productTags_content{
+    display: grid;
+    grid-template-columns: auto auto ;
+}
+.shop .shopRight .productTags .productTags_content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4F4F4F;
+    border-bottom: 1px solid #F2F2F2;
+    padding: 2px;
+}
+.shop .shopRight .productTags .productTags_content p:hover{
+    color: #FF9F0D;
+    border-bottom: 2px solid #FF9F0D;
+}
